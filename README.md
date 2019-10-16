@@ -1,4 +1,4 @@
-# Galaxy classfier 
+# Galaxy classifier 
 
 This is a project to classify galaxies into the following three types using Galaxy Zoo data
 1. Spiral 
