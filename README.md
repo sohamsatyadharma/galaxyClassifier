@@ -1,4 +1,4 @@
-## Galaxy classifier 
+# Galaxy classifier 
 
 This is a project to classify galaxies into the following three types using Galaxy Zoo data
 1. Spiral 
@@ -11,7 +11,7 @@ The classification was done using
 
 The features used were color indices, eccentricity, adaptive moments and concentration. Concentration was taken as the ratio of the radii containing 50% and 90% of the Petrosian flux.
 
-# Update
+### Update
 
 galaxy_zoo.ipynb is an appraoch to classify galaxies into 37 type using a deep CNN
 
