@@ -13,7 +13,7 @@ The features used were color indices, eccentricity, adaptive moments and concent
 
 ### Update
 
-galaxy_zoo.ipynb is an appraoch to classify galaxies into 37 type using a deep CNN
+galaxy_zoo.ipynb is an appraoch to classify galaxies into 37 types using a deep CNN
 
 The original data is pre-processed in the following ways:
 1. The meatier part of the data is in the center of the image. The deep space surrounding the galaxy won't help classify them, so I cropped the original image from 424x424 to 256x256 and downscaled it to 64x64.
@@ -22,4 +22,6 @@ The original data is pre-processed in the following ways:
 4. The image was flipped using both horizontally and vertically by a two coin toss (Eg: An HH outcome would mean the image is flipped both horizontally and vertically, while a HT outcome would mean a horizontal flip but not a vertical flip). 
 
 The CNN resulted in an RMSE ~ 0.098. 
+
+Referred to Sander Dieleman's [blog](https://benanne.github.io/2014/04/05/galaxy-zoo.html) on the topic.
 
